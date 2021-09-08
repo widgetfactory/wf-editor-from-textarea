@@ -52,7 +52,7 @@ class PlgSystemWf_Editor_From_Textarea extends JPlugin
 
         $editor = JFactory::getConfig()->get('editor');
         $instance = JEditor::getInstance($editor);
-        return $instance->display($name, $html, $width, $height, 20, 20, true, $id, null, null, array('attributes' => $attribs));
+        return $instance->display($name, $html, $width, $height, 20, 20, true, $id, null, null, array());
     }
 
     /**
