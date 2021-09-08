@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system" method="upgrade">
+	<name>plg_system_wf_editor_from_textarea</name>
+	<author>Widget Factory</author>
+	<creationDate>September 2021</creationDate>
+	<copyright>Copyright (C) 2021 Ryan Demmer. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@joomlacontenteditor.net</authorEmail>
+	<authorUrl>www.joomlacontenteditor.net</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_WF_EDITOR_FROM_TEXTAREA_XML_DESCRIPTION</description>
+	<files folder="plugins/system/wf_editor_from_textarea">
+		<filename plugin="wf_editor_from_textarea">wf_editor_from_textarea.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="options">
+				<field name="selector" type="text" default="" label="PLG_SYSTEM_WF_EDITOR_FROM_TEXTAREA_SELECTOR" description="PLG_SYSTEM_WF_EDITOR_FROM_TEXTAREA_SELECTOR_DESC" />
+				<field name="width" type="text" default="" label="PLG_SYSTEM_WF_EDITOR_FROM_TEXTAREA_WIDTH" description="" />
+				<field name="height" type="text" default="" label="PLG_SYSTEM_WF_EDITOR_FROM_TEXTAREA_HEIGHT" description="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
