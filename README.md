@@ -10,7 +10,13 @@ Install using the Joomla Extensions Installer and enable after installation.
 https://docs.joomla.org/Installing_an_extension
 
 ## Configuration and Usage
-Only textarea elements identified by a class selector will be converted. The **Editor Selector** needs to be set in the plugins parameters, in Extensions -> Plugins, eg:
+Only textarea elements identified by a class selector will be converted. So for example:
+```html
+<textarea name="my_content" class="custom-editor">Some default content...</textarea>
+```
+will be converted into an editor if the **Editor Selector** is set as _custom-editor_.
+
+The **Editor Selector** needs to be set in the plugins parameters, in Extensions -> Plugins, eg:
 
 ![Plugin Configuration](https://cdn.joomlacontenteditor.net/images/docs/wf-editor-from-textarea/edtitor-from-textarea-config.jpg)
 
